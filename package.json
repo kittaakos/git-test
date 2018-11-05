@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kittaakos/git-test"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --opts ./mocha.opts src/**/*.spec.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/keytar": "^4.0.1",
+    "dugite": "^1.79.0",
+    "keytar": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "@types/temp": "^0.8.32",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "source-map-support": "^0.5.9",
+    "temp": "^0.8.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
+}
